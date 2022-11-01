@@ -5,4 +5,4 @@ Buy Me A Coffee: $131
 
 Sample Output
 
-![](images/NMKR.PNG)
+![](assets/images/NMKR.PNG)
