@@ -1,5 +1,5 @@
 # CardanoNFTSample
-[CardanoNFTSample] is a repo sample on how to mint NFT on Cardano with NFT-Maker
+[CardanoNFTSample] is a repo sample on how to mint NFT on Cardano with simple html , css and js
 
 Buy Me A Coffee: $131
 
