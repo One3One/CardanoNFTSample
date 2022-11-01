@@ -3,6 +3,10 @@
 
 Buy Me A Coffee: $131
 
-Sample Output
+Sample Output: With Payment Gateway
 
 ![](assets/images/nmkr.PNG)
+
+Sample Output: With Pay-in Address
+
+![](assets/images/image.png)
