@@ -1,0 +1,196 @@
+@font-face {
+  font-family: 'Plain';
+  src: url('./fonts/jap.otf') format('woff'),
+      url('./fonts/jap.otf') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'test';
+  src: url('./fonts/jap.otf') format('woff'),
+      url('./fonts/jap.otf') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Plain';
+  src: url('./fonts/jap.otf') format('woff'),
+  url('./fonts/jap.otf') format('woff');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Plain';
+  src: url('./fonts/jap.otf') format('woff'),
+  url('./fonts/jap.otf') format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
+
+:root {
+  --base-font-family:     'Plain', sans-serif;
+  --base-font-god:        'Plains', sans-serif;
+}
+
+
+.kaizu{
+  font-family: var(--base-font-family);
+  font-size: 50px;
+  line-height: 40px;
+  margin-bottom: 4px;
+  color: white;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+  }
+  html,
+  body {
+ 
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+  body {
+    background-image: url("[image location]");
+    height: 100%;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    font-family: "Satoshi", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: ;
+    -webkit-font-smoothing: antialiased;
+    color: #fff;
+    background-color: #190b2e;
+    font-weight: 500;
+  }
+  a {
+    color: inherit;
+  }
+  #overlay {
+    width: 100%;
+    height: 100%;
+    background-image: url("[image location]");
+    mix-blend-mode: color-dodge;
+    background-size: cover;
+    position: absolute;
+    z-index: 1;
+    background-position: top center;
+  }
+  #content {
+    text-align: center;
+    padding-top: 128px;
+    z-index: 2;
+    position: relative;
+  }
+  .icon {
+    margin-bottom: 12px;
+  }
+
+  p {
+    font-size: 18px;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 0.64);
+  }
+  #button {
+    display: flex;
+    background-color: #fff;
+    color: #000;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 12px 16px;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    margin: 32px auto 0;
+    border-radius: 24px;
+    height: 48px;
+    width: fit-content;
+  }
+
+  #particles-js {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  }
+
+  #smoke {
+    background-image: url(/assets/images/kaizu.gif);
+    background-image: -webkit-image-set(
+      url(/assets/images/kaizu.gif) 1x,
+      url(/assets/images/kaizu.gif) 2x,
+      url(/assets/images/kaizu.gif) 3x
+    );
+    background-image: image-set(
+      url(/assets/images/kaizu.gif) 1x,
+      url(/assets/images/kaizu.gif) 2x,
+      url(/assets/images/kaizu.gif) 3x
+    );
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: contain;
+    /* width: 884px; */
+    width: 100%;
+    height: 792px;
+    position: absolute;
+    bottom: -128px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    z-index: 0;
+  }
+  
+  @media (max-width: 768px) {
+    #content {
+      padding-top: 64px;
+    }
+    h1 {
+      font-size: 24px;
+      line-height: 32px;
+    }
+    h3{
+      font-size: 10px;
+    }
+    p {
+      font-size: 16px;
+      line-height: 20px;
+    }
+    #button {
+      margin: 24px auto 0;
+    }
+    #smoke {
+      bottom: -64px;
+    }
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    #content {
+      padding-top: 0;
+      margin-top: -256px;
+    }
+  }
+  @media (min-height: 1280px) {
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    #content {
+      padding-top: 0;
+      margin-top: -256px;
+    }
+  }
+  
